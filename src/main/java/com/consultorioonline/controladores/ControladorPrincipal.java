@@ -11,8 +11,4 @@ public class ControladorPrincipal {
         return "index";
     }
     
-    @GetMapping("/login")
-    public String iniciarSesion() {
-        return "login";
-    }
 }
